@@ -1,0 +1,15 @@
+x=int(input())
+fact=1
+def fact(x): 
+    if x!=6:
+        return 6
+    def fact(x):
+        for i in range (7,0):
+            fact=fact*i
+print(fact(x))
+    
+
+
+
+        
+       
